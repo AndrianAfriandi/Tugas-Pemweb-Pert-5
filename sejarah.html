@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>
+    <title>Halaman Utama</title>
+</head>
+<body>
+    <div class="container">
+        <header class="d-flex flex-wrap justify-content-center py-3 mb-4">
+          <a href="http://sik.kd-serang.upi.edu/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+            <svg class="bi me-2" width="40" height="30"><use xlink:href="#bootstrap"/></svg>
+            <img src="LOGO-UPI.jpg" alt="" width="40"><span class="fs-4">Sistem Informasi Kelautan</span>
+          </a>
+    
+          <ul class="nav nav-pills">
+            <li class="nav-item"><a href="kuis.html" class="nav-link">Beranda</a></li>
+            <div class="dropdown">
+                <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown" style="color:blue;">
+                  Profil
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Sejarah</a></li>
+                  <li><a class="dropdown-item" href="#">Visi Misi</a></li>
+                  <li><a class="dropdown-item" href="#">Struktur Organisasi</a></li>
+                  <li><a class="dropdown-item" href="#">Dosen</a></li>
+                </ul>
+              </div>
+            <li class="nav-item"><a href="#" class="nav-link">Akademik</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Akreditasi</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Donload</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">FAQ</a></li>
+          </ul>
+        </header>
+      </div>
+      <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+           <img src="diving.jpg" alt="" width="100%" height="600px">
+    
+           <div class="feature col">
+            <div class="feature-icon">
+              <svg class="bi" width="1em" height="1em"><use xlink:href="#people-circle"/></svg>
+            </div>
+            <ul><h2>Sejarah</h2>
+            <p>Universitas Pendidikan Indonesia (UPI) sebagai universitas pelopor dan unggul perlu berkontribusi dalam bidang tersebut dan juga dalam rangka UPI sebagai Center of Excellence bidang Pendidikan Vokasi. Kemudian, dalam rangka mempersiapkan sumberdaya manusia sektor kemaritiman pada era revolusi industri 4.0 UPI pada tahun 2019 berencana membuka program studi Sistem Informasi Kelautan.
+
+                Sistem Informasi Kelautan merupakan bagian dari Ilmu Kelautan yang fokus pada analisis data kelautan baik numerik maupun spasial untuk kemudian diintegrasikan ke dalam suatu sistem informasi yang dikembangkan sebagai dasar pengambilan keputusan. Sumberdaya manusia yang terampil dalam hal tersebut sangat diperlukan dalam pembangunan di sektor kemaritiman pada industri 4.0.</p></ul>
+          </div>
+          <br>
+          <br>
+          <div class="container border-top">
+            <div class="row">
+              <div class="col">
+                <form>
+            <div class="mb-3">
+              <label for="exampleInputNama1" class="form-label">Nama</label>
+              <input type="nama" class="form-control" id="exampleInputNama1" aria-describedby="namaHelp">
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label">Pesan</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <button type="kirim" class="btn btn-primary">Kirim</button>
+          </form>
+              </div>
+              <div class="feature col">
+                <div class="feature-icon">
+                  <svg class="bi" width="1em" height="1em"><use xlink:href="#toggles2"/></svg>
+                </div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3967.0370422558185!2d106.14447451430925!3d-6.125717661768962!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e418adaa4f7f563%3A0x950ec58123df8596!2sUniversitas%20Pendidikan%20Indonesia%20(UPI)%20Kampus%20Serang!5e0!3m2!1sid!2sid!4v1633826769398!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+              </div>
+              <footer class="pt-3 mt-4 text-muted border-top">
+                &copy; 2021 Andrian Afriandi (2009020)
+              </footer>
+        </div>
+      </body>
+  </html>
+                
+                
